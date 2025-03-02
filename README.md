@@ -1,4 +1,4 @@
-# Confession Booth
+# Confess Your Sins
 
 **"Venite ad me, omnes qui laboratis et onerati estis, et ego reficiam vos."**  
 (Come to me, all you who labor and are burdened, and I will give you rest. – Matthew 11:28)
