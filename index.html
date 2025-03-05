@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession Booth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="priest-wrapper">
+            <div class="priest"></div>
+        </div>
+        <div class="dialogue">
+            <p id="dialogueText"></p>
+        </div>
+        <div class="confession">
+            <textarea id="confessionInput" placeholder="Type your confession here..."></textarea>
+            <div class="button-area">
+                <button id="confessButton">Confess</button>
+                <div id="moreSinsPrompt" style="display: none;">
+                    <p>Do you have another sin to confess, my son?</p>
+                    <button id="yesButton">Yes</button>
+                    <button id="noButton">No</button>
+                </div>
+                <button id="yesFatherButton" style="display: none;">Yes, Father</button>
+                <button id="amenButton" style="display: none;">Amen</button>
+                <button id="thanksButton" style="display: none;">Thanks be to God</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="catholic_music.mid" type="audio/midi">
+    </audio>
+    <audio id="typeSound">
+        <source src="type.wav" type="audio/wav">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
